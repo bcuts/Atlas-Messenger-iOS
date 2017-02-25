@@ -893,7 +893,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Atlas Messenger.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = U46UP347QQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries",
@@ -913,8 +913,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.layer.Atlas-Messenger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "1c7a68c6-8d23-4115-a3dd-f03d06dd39ef";
+				PROVISIONING_PROFILE_SPECIFIER = "com.layer.Atlas-Messenger InHouse 1488059870";
 				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -930,7 +930,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Atlas Messenger.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = U46UP347QQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries",
@@ -950,8 +950,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.layer.Atlas-Messenger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "1c7a68c6-8d23-4115-a3dd-f03d06dd39ef";
+				PROVISIONING_PROFILE_SPECIFIER = "com.layer.Atlas-Messenger InHouse 1488059870";
 				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
