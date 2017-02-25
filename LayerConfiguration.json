@@ -1,4 +1,4 @@
 {
-    "app_id": null,
-    "identity_provider_url" : null
+    "app_id": "layer:///apps/production/9ec30af8-5591-11e4-af9e-f7a201004a3b",
+    "identity_provider_url" : "https://layer-identity-provider.herokuapp.com"
 }
