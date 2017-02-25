@@ -563,7 +563,7 @@
 					0A0C242219477D8F00401B74 = {
 						DevelopmentTeamName = "Layer, Inc.";
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
