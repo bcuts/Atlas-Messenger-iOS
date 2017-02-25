@@ -3,9 +3,8 @@ machine:
     version: "8.2"
 
 dependencies:
-  override:
+  pre:
     - gem install bundler
-    - bundle install
 
 test:
   override:
