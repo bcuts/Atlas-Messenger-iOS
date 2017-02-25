@@ -16,7 +16,9 @@ platform :ios do
   lane :deploy do
     cert
     sigh
-    gym
+    gym(
+      use_legacy_build_api: true
+    )
     hockey
   end
 end
