@@ -13,6 +13,6 @@ test:
 
 deployment:
   internal_distribution:
-    branch: jpmcglone/deploy
+    branch: "jpmcglone/deploy"
       commands: 
         - bundle exec fastlane deploy
