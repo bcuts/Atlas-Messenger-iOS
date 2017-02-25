@@ -1,14 +1,18 @@
 machine:
   xcode:
-    version: 8.2
+    version: "8.2"
+
 dependencies:
   override:
     - gem install bundler
     - bundle install
+
 test:
   override:
     - bundle exec fastlane test
+
 deployment:
-  branch: jpmcglone/deploy
-    commands: 
-      - bundle exec fastlane deploy
+  internal_distribution:
+    branch: jpmcglone/deploy
+      commands: 
+        - bundle exec fastlane deploy
