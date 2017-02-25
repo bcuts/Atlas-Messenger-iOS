@@ -10,6 +10,6 @@ test:
     - bundle exec fastlane test
 deployment:
   internal_distribution:
-    branch: jpmcglone/deploy # change to master
+    branch: jpmcglone/deploy
       commands: 
         - bundle exec fastlane deploy
